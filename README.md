@@ -5,7 +5,7 @@ In this assignment you will implement a Turing Machine (TM) in C. A TM consists 
     -An infinite tape, divided into cells
     -A read/write head which traverses along the tape, capable of reading the current cell, writing a new value in the current cell, and moving left or right
     -A state register
-    -A finite table of instructions which, given the current state of the machine, and the value in the tape cell currently being read, retrieves an instruction which tells       the machine to:
+    -A finite table of instructions which, given the current state of the machine, and the value in the tape cell currently being read, retrieves an instruction which tells the machine to:
         >Write some (possibly the same) item into the cell
         >Move the head left or right one cell
         >Change to some (possibly the same) state
