@@ -24,18 +24,18 @@ In order to represent the instruction table in your program, create a two-dimens
 
 Below is a sample input file which adds two unary numbers together. Given an initial tape input of 111B1111, representing the numbers 3 and 4 separated by a blank, the machine walks to the end of the tape, changing the middle B to a 1, and changing the last 1 to a B. The result is 1111111, unary 7. The program assumes the machine starts at the beginning of the tape (on the ‘A’ cell).
 
-111B1111
-6
-0
-5
-(0,A)->(A,R,1)
-(1,1)->(1,R,1)
-(1,B)->(1,R,2)
-(2,1)->(1,R,2)
-(2,B)->(B,L,3)
-(3,1)->(B,L,4)
-(4,1)->(1,L,4)
-(4,A)->(A,R,5)
+    111B1111
+    6
+    0
+    5
+    (0,A)->(A,R,1)
+    (1,1)->(1,R,1)
+    (1,B)->(1,R,2)
+    (2,1)->(1,R,2)
+    (2,B)->(B,L,3)
+    (3,1)->(B,L,4)
+    (4,1)->(1,L,4)
+    (4,A)->(A,R,5)
 
 The input file has the following specification:
 Line 1: Initial tape content (written after ‘A’ cell)
